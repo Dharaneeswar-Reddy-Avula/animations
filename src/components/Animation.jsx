@@ -335,7 +335,7 @@ const Animation = () => {
               onHoverEnd={() => setHoveredCard(null)}
               {...card.anim}
             >
-              <img src={card.img} alt={card.title} className="w-full h-40 object-cover object-center rounded-t-3xl group-hover:scale-105 transition-transform duration-500" />
+              <img src={card.img}  className="w-full h-40 object-cover object-center rounded-t-3xl group-hover:scale-105 transition-transform duration-500" />
               <div className="p-6 flex flex-col items-center">
                 <div className="mb-4">{card.icon}</div>
                 <h3 className="text-2xl font-bold text-gray-800 mb-2 text-center">{card.title}</h3>
